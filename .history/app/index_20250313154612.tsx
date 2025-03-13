@@ -21,14 +21,15 @@ export default function HomeScreen() {
   return (
     <>
       <WebView
-        source={{ uri: "miyamiyadatasub.com.ng" }}
-        onReceivedError={(syntheticEvent: any) => {
-          console.warn("SSL Error Ignored:", syntheticEvent.nativeEvent);
-        }}
-        onHttpError={(syntheticEvent) => {
-          console.warn("HTTP Error:", syntheticEvent.nativeEvent);
-        }}
-      />
+  source={{ uri: 'https://miyamiyadatasub.com.ng/' }}
+  onReceivedError={(syntheticEvent) => {
+    console.warn('SSL Error Ignored:', syntheticEvent.nativeEvent);
+  }}
+  onHttpError={(syntheticEvent) => {
+    console.warn('HTTP Error:', syntheticEvent.nativeEvent);
+  }}
+/>
+
     </>
   );
 }

@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MyApp",
-    "displayName": "Miyamiya Data Sub",
+  "displayName": "Miyamiya Data Sub"
     "slug": "MyApp",
     "version": "1.0.0",
     "orientation": "portrait",
