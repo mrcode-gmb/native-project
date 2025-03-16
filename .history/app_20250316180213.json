@@ -1,24 +1,20 @@
 {
   "expo": {
-    "name": "Miyamiya Data Sub",
+    "name": "MyApp",
     "displayName": "Miyamiya Data Sub",
     "slug": "MyApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/miyamiyalogo-removebg-preview.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "MiyaMiyaDataSub",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/miyamiyalogo-removebg-preview.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.mrcodeng.MyApp"
@@ -33,7 +29,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/miyamiyalogo-removebg-preview.png",
+          "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
